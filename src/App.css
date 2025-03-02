@@ -1,0 +1,88 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #333;
+  font-size: 2rem;
+  margin-bottom: 20px;
+}
+
+.input-container {
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  width: 80%;
+  padding: 10px;
+  border: 2px solid #5e392f;
+  border-radius: 8px;
+  font-size: 1rem;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  outline: none;
+}
+
+input[type="text"]:focus {
+  border-color: #b49839;
+}
+
+.qr-code-container {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.qr-code-box {
+  display: inline-block;
+  padding: 20px;
+  border: 2px solid #613023;  /* Border color */
+  border-radius: 12px;  /* Rounded corners */
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: white;  /* Background color for the QR box */
+  margin-top: 20px;  /* Space above the box */
+}
+
+.color-picker-container {
+  margin-bottom: 20px;
+}
+
+label {
+  margin-right: 10px;
+  font-size: 1rem;
+  color: #333;
+}
+
+input[type="color"] {
+  margin: 0 10px;
+}
+
+.download-btn {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-size: 1rem;
+  background-color: #df532c;  /* Default button color */
+  border: none;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.download-btn:hover {
+  background-color: #1a1a17;  /* Color on hover */
+  transform: scale(1.05);  /* Slight scaling on hover */
+}
