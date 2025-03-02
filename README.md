@@ -29,7 +29,7 @@ sentence-2-qr/
 ## 🚀 Installation & Setup
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/sentence-2-qr.git
+   git clone https://github.com/sanidhyaprakash/sentence-2-qr
    cd sentence-2-qr
    ```
 2. Install dependencies:
@@ -48,7 +48,7 @@ sentence-2-qr/
 - **CSS** - Styling and animations
 
 ## 📸 Screenshots
-![App Screenshot](./screenshots/sentence2qr.png)
+![App Screenshot](sentence-2-qr.png)
 
 ## 📜 License
 This project is open-source and available under the MIT License.
